@@ -164,8 +164,8 @@ def gameLoop():
         Your_score(Length_of_snake - 1)
          
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(20, 400 - 10) / 10.0) * 10.0
-            foody = round(random.randrange(20, 200 - 10) / 10.0) * 10.0
+            foodx = round(random.randrange(20, 550) / 10.0) * 10.0
+            foody = round(random.randrange(20, 350) / 10.0) * 10.0
             Length_of_snake += 1
             eat_food.play()
         keyboardmsg ("Use ← = Left, ↑ = Up, , → = Right, ↓ = Down", white)        
