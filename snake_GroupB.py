@@ -16,7 +16,7 @@ blue = (50, 153, 213)
 SCREEN_width = 600
 SCREEN_height = 400
 SCREEN = pygame.display.set_mode((SCREEN_width, SCREEN_height))
-pygame.display.set_caption('Jungle Snack by Group B') 
+pygame.display.set_caption('Jungle Snake by Group B') 
 clock = pygame.time.Clock()
 
 # Gambar Background dan Penutup 
